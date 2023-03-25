@@ -112,38 +112,43 @@ table, th, td {
     position: relative;
 }
 
-.topleft {
+.alternate {
     color: white;
+    font-size: xx-large;
     position: absolute;
     top: 0;
-    left: 0;
+    left: 30%;
 }
 
-.topright {
+.uni {
     color: white;
+    font-size: xx-large;
     position: absolute;
     top: 0;
-    right: 0;
+    left: 45%;
 }
 
-.bottomleft {
+.evil {
     color: white;
+    font-size: medium;
     position: absolute;
-    bottom: 0;
-    left: 0;
+    top: 80%;
+    left: 40%;
 }
 
-.bottomright {
+.batman {
     color: white;
+    font-size: medium;
     position: absolute;
-    bottom: 0;
-    right: 0;
+    top: 80%;
+    left: 50%;
 }
 
-.centered {
+.bikes {
     color: white;
+    font-size: xx-large;
     position: absolute;
-    top: 50%;
+    top: 20%;
     right: 50%;
     text-align: center;
 }
